@@ -1,0 +1,23 @@
+{
+  "name": "cec-alsa-volume",
+  "description": "Sync HDMI CEC volume events with ALSA mixer",
+  "version": "0.1.0",
+  "repository": "https://github.com/lautis/cec-alsa-volume.git",
+  "author": "Ville Lautanala <lautis@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "cec-alsa-volume": "./index.js"
+  },
+  "private": false,
+  "dependencies": {
+    "@senzil/cec-monitor": "^2.0.1",
+    "execa": "^1.0.0",
+    "generic-pool": "^3.4.2",
+    "lodash.throttle": "^4.1.1",
+    "yargs-parser": "^13.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
+}
