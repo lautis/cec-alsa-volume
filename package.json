@@ -9,6 +9,9 @@
   "bin": {
     "cec-alsa-volume": "./index.js"
   },
+  "scripts": {
+    "test": "mocha"
+  },
   "private": false,
   "dependencies": {
     "@senzil/cec-monitor": "^2.0.1",
@@ -18,6 +21,7 @@
     "yargs-parser": "^13.0.0"
   },
   "devDependencies": {
+    "mocha": "^5.2.0",
     "prettier": "^1.16.4"
   }
 }
